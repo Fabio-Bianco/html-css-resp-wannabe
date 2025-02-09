@@ -128,27 +128,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- 
- /* @media screen and  (min-width: 768px) {
-    h1  {  
-          display: flex;
-          justify-content: end;
-          padding-right: 25px;
-     
-    }
-  }
-      
-
-
-
- @media screen and  (min-width: 480px) {
-    h1  {  
-          display: flex;
-          justify-content: end;
-          padding-right: 25px;
-     
-    }
-  } */
+/* soluzioni responsive 768px */
 
 
   @media screen and (max-width: 768px) {
@@ -181,6 +161,9 @@ img {
     }
 }
 
+/* soluzioni responsive 768px */
+
+/* soluzioni responsive 480px */
 
 @media screen and (max-width: 480px) {
     h1 {
@@ -215,3 +198,5 @@ img {
         width: 80%;
     }
 }
+
+/* soluzioni responsive 480px */
