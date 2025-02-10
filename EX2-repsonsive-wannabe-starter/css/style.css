@@ -130,8 +130,12 @@ img {
 
 /* soluzioni responsive 768px */
 
-
-  @media screen and (max-width: 768px) {
+    .container{
+        max-width: 1140px;   
+        width: 100%;
+    }
+ /* oppure */
+ /* @media screen and (max-width: 768px) {
     .container {
         width: 100%;
         padding: 0 15px;
@@ -160,11 +164,24 @@ img {
         padding-right: 0;
     }
 }
+ */
 
+ 
 /* soluzioni responsive 768px */
+
+ */
 
 /* soluzioni responsive 480px */
 
+
+
+
+.lessons .col,
+.steps .col,
+.why-us .col {
+
+    width: 100%;
+}
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 2rem;
@@ -183,11 +200,6 @@ img {
         padding: 0 10px;
     }
 
-    .row {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .lessons .col, 
     .steps .col, 
     .why-us .col {
@@ -198,5 +210,12 @@ img {
         width: 80%;
     }
 }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 
 /* soluzioni responsive 480px */
